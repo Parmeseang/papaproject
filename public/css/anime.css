@@ -1,0 +1,48 @@
+
+.box-4:hover,.box-3:hover,.box-2:hover,.box-1:hover,.a:hover{
+   box-shadow:  0 0  20px 5px #e4e4e4;;
+    transform: scale(1.2)  
+}
+.deal button:hover{
+    transform: scale(1.1)  ;
+    background-color: #2a2438;
+    color: #ffffff;
+    border: none;
+}
+
+.popup-nav {
+    animation: popup .2s ease;
+  }
+
+
+
+@keyframes popup {
+    0%{
+        transform: scale(0.5)  ;
+    }
+    50%{
+        transform: scale(1.2)  ;
+    }
+    100%{
+        transform: scale(1)  ;
+    }
+}
+
+.box-1,.box-2,.box-3,.box-4{
+    transition: transform 0.3s ease;
+}
+nav a:hover{
+     background-color: #DBD8E3;
+     color: #2a2438;
+     border: 1px solid white;
+ }
+button:hover{
+    background-color: #DBD8E3;
+    color: #2a2438;
+    border: 1px solid white;
+}
+.dropdown a:hover{
+    background-color: #DBD8E3;
+    color: #2a2438;
+    border: 1px solid white;
+}

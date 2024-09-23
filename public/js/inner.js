@@ -189,7 +189,7 @@ send=(x)=>{
 let params = new URLSearchParams(allcar[x]).toString();
 
 // เพิ่ม URL Parameters ลงใน URL
-let url = "http://localhost:3000/ac?" + params;
+let url = "/ac?" + params;
 
 // เปิดหน้าเว็บใหม่ด้วย URL ที่สร้างขึ้น
 window.location.href = url;
